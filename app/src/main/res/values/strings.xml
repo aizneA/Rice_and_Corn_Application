@@ -1,3 +1,26 @@
 <resources>
-    <string name="app_name">Rice and CornApplication</string>
+    <string name="app_name">RaC Application</string>
+    <string name="cover">Cover</string>
+    <string name="crop_disease">Crop Disease</string>
+    <string name="crop_disease_scientific_name">Crop Disease Scientific Name</string>
+    <string name="crop_disease_detailed_information">Crop Disease Detailed Information</string>
+    <string name="prev_method_disease">Prevention</string>
+    <string name="prev_method_paragraph">Prevention Method</string>
+    <string name="prev_img_example">Prevention Example</string>
+    <string name="prev_description">Prevention Methods</string>
+    <string name="prev_disease">Prevention of Disease</string>
+    <string name="p_dfn">Prevention Method includes inclusive way of watering the crops</string>
+    <string name="tungro">Rice tungro disease is caused by the combination of two viruses, which are transmitted by leafhoppers. It causes leaf discoloration, stunted growth, reduced tiller numbers and sterile or partly filled grains. Tungro infects cultivated rice, some wild rice relatives and other grassy weeds commonly found in rice paddies.</string>
+    <string name="ok">OK</string>
+    <string name="CD">Crop Disease</string>
+    <string name="li">Lorem Ipsum</string>
+    <string name="name_of_disease">Name of Disease</string>
+    <string name="disease_name">Disease Name</string>
+    <string name="management">Management</string>
+    <string name="figure_1">Figure 1</string>
+    <string name="blight">Northern corn leaf blight can be managed through the use of resistant hybrids.</string>
+    <string name="cycle">dis_cycle</string>
+    <string name="camera_button">Capture</string>
+    <string name="storage_button">Storage</string>
+    <string name="classify_button">Classify</string>
 </resources>

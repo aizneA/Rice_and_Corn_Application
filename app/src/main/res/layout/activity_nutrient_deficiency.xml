@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bb"
+    tools:context=".NutrientDeficiency">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="15dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:lines="1"
+            android:padding="5dp"
+            android:text="Nutrient Deficiencies"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:lines="1"
+            android:padding="5dp"
+            android:text="Nitrogen Deficiency"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold">
+        </TextView>
+
+        <TextView
+            android:id="@+id/diag_plant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Imonh m"
+            android:textSize="16dp"
+            android:padding="10dp"
+            android:background="@drawable/round_corner"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/black">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:lines="1"
+            android:padding="5dp"
+            android:text="Phosphorus Deficiency"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold">
+        </TextView>
+
+        <TextView
+            android:id="@+id/diag_plant1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Imonh m"
+            android:textSize="16dp"
+            android:padding="10dp"
+            android:background="@drawable/round_corner"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/black">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:lines="1"
+            android:padding="5dp"
+            android:text="Potassium Deficiency"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold">
+        </TextView>
+
+        <TextView
+            android:id="@+id/diag_plant12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Imonh m"
+            android:textSize="16dp"
+            android:padding="10dp"
+            android:background="@drawable/round_corner"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/black">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:lines="1"
+            android:padding="5dp"
+            android:text="Zinc Deficiency"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold">
+        </TextView>
+
+        <TextView
+            android:id="@+id/diag_plant123"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Imonh m"
+            android:textSize="16dp"
+            android:padding="10dp"
+            android:background="@drawable/round_corner"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/black">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:lines="1"
+            android:padding="5dp"
+            android:text="Iron Deficiency"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold">
+        </TextView>
+
+        <TextView
+            android:id="@+id/diag_plant1234"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Imonh m"
+            android:textSize="16dp"
+            android:padding="10dp"
+            android:background="@drawable/round_corner"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/black">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:lines="1"
+            android:padding="5dp"
+            android:text="Illustration Guide"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold">
+        </TextView>
+
+        <ImageView
+            android:id="@+id/illus_def"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:src="@drawable/crop_ccr"
+            android:background="@drawable/roundstyle"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/cycle"
+            android:layout_marginBottom="10dp"/>
+
+        <ImageView
+            android:id="@+id/illus_def1"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:src="@drawable/crop_ccr"
+            android:background="@drawable/roundstyle"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/cycle"
+            android:layout_marginBottom="25dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

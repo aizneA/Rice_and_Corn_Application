@@ -2,17 +2,112 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bbb"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="272dp"
+        android:layout_height="249dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.098"
+        app:srcCompat="@drawable/no_img_600x600" />
+
+    <TextView
+        android:id="@+id/clssfctn_view"
+        android:layout_width="300dp"
+        android:layout_height="37dp"
+        android:background="@drawable/round_corner"
+        android:text="@string/CD"
+        android:textAlignment="center"
+        android:textColor="@color/darkGray"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/clsf_btn"
+        app:layout_constraintVertical_bias="0.166" />
+
+    <Button
+        android:id="@+id/cptr_btn"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="126dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/bg_capt"
+        android:text="@string/camera_button"
+        android:textAlignment="center"
+        android:textColor="@color/darkGray"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/strg_btn"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_view"
+        app:layout_constraintVertical_bias="0.121" />
+
+    <Button
+        android:id="@+id/strg_btn"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="126dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/bg_capt"
+        android:text="@string/storage_button"
+        android:textAlignment="center"
+        android:textColor="@color/darkGray"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.803"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_view"
+        app:layout_constraintVertical_bias="0.121" />
+
+    <Button
+        android:id="@+id/clsf_btn"
+        android:layout_width="126dp"
+        android:layout_height="38dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bg_capt"
+        android:enabled="false"
+        android:text="@string/classify_button"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/strg_btn"
+        app:layout_constraintVertical_bias="0.114" />
+
+    <ImageButton
+        android:id="@+id/lghtblb_btn"
+        android:layout_width="64dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="23dp"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="@android:color/darker_gray"
+        android:clickable="true"
+        android:focusable="true"
+        android:src="@drawable/untitled"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/clssfctn_view"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/untitled"
+        tools:visibility="visible"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

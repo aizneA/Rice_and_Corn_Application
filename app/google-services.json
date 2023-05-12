@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "176126382765",
+    "project_id": "rice-and-corn-application",
+    "storage_bucket": "rice-and-corn-application.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:176126382765:android:5f50f7671acb9400e7ec24",
+        "android_client_info": {
+          "package_name": "com.riceandcornapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "176126382765-p5p7ntobljc2fmr9va0601hipj86qqj3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuWgQMDt8ZkSmJ07vlAzaVeMUNqwGOyj0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "176126382765-p5p7ntobljc2fmr9va0601hipj86qqj3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

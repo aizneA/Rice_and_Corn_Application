@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".PreventionActivity"
+    android:background="@drawable/bb">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@drawable/round_corner"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/disease_name"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/name_of_disease"
+                android:textSize="23sp"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:paddingBottom="10dp"
+                android:textColor="@color/black"
+                android:text="@string/disease_name">
+            </TextView>
+
+            <TextView
+                android:id="@+id/mngmt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/management"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/black">
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:id="@+id/mngmt_detail"
+                    android:layout_width="220dp"
+                    android:text="@string/management"
+                    android:padding="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|end"
+                    android:textColor="@color/black"
+                    android:background="@drawable/round_corner"
+                    android:textSize="17sp">
+                </TextView>
+
+                <ImageView
+                    android:id="@+id/figure_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="10dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:src="@drawable/no_img_600x600"
+                    android:contentDescription="@string/figure_1">
+                </ImageView>
+
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/mngmt_detail_add"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center_vertical|end"
+                android:text="@string/management"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:background="@drawable/round_corner"
+                android:layout_marginBottom="10dp"
+                android:textSize="17sp"
+                android:layout_marginRight="10dp">
+            </TextView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

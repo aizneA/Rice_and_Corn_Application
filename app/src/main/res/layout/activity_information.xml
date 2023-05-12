@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bb"
+    tools:context=".InformationActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="15dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:lines="1"
+            android:padding="5dp"
+            android:text="Disease and Causes"
+            android:textColor="@color/darkGray"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/disease_plant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/li"
+            android:padding="10dp"
+            android:textSize="16sp"
+            android:background="@drawable/round_corner"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/darkGray">
+        </TextView>
+
+        <ImageView
+            android:id="@+id/graph"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:src="@drawable/crop_ccr"
+            android:background="@drawable/roundstyle"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/cycle"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:lines="1"
+            android:padding="5dp"
+            android:text="How to Diagnose a Plant Disease"
+            android:textColor="@color/darkGray"
+            android:textSize="16sp"
+            android:textStyle="bold">
+        </TextView>
+
+        <TextView
+            android:id="@+id/diag_plant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="text here"
+            android:textSize="16dp"
+            android:padding="10dp"
+            android:background="@drawable/round_corner"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/darkGray">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:lines="1"
+            android:padding="5dp"
+            android:text="Common Cause of Plant Disease"
+            android:textColor="@color/darkGray"
+            android:textSize="16sp"
+            android:textStyle="bold">
+        </TextView>
+
+        <TextView
+            android:id="@+id/cause_plant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="text here"
+            android:textSize="16dp"
+            android:padding="10dp"
+            android:background="@drawable/round_corner"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/darkGray">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:lines="1"
+            android:padding="5dp"
+            android:text="Major Organisms Causing Plant Disease"
+            android:textColor="@color/darkGray"
+            android:textSize="16sp"
+            android:textStyle="bold">
+        </TextView>
+
+        <TextView
+            android:id="@+id/organism_plant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="text here"
+            android:padding="10dp"
+            android:textSize="16dp"
+            android:background="@drawable/round_corner"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/darkGray">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:lines="1"
+            android:padding="5dp"
+            android:text="Occurrence of Plant Disease"
+            android:textColor="@color/darkGray"
+            android:textSize="16sp"
+            android:textStyle="bold">
+        </TextView>
+
+        <TextView
+            android:id="@+id/occurence_plant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:text="text here"
+            android:padding="10dp"
+            android:background="@drawable/round_corner"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/darkGray">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:lines="1"
+            android:padding="5dp"
+            android:text="Principles of Disease Management"
+            android:textColor="@color/darkGray"
+            android:textSize="16sp"
+            android:textStyle="bold">
+        </TextView>
+
+        <TextView
+            android:id="@+id/principle_plant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="30dp"
+            android:textSize="16dp"
+            android:background="@drawable/round_corner"
+            android:padding="10dp"
+            android:text="@string/li"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/darkGray" />
+    </LinearLayout>
+
+</ScrollView>
